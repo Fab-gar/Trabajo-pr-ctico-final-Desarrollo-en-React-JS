@@ -1,0 +1,158 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  
+  background-image: url(/src/assets/fondo.jpg);
+
+ 
+}
+
+a {
+  font-weight: 500;
+  color: #383131;
+  margin: 100px;
+  text-decoration: inherit;
+}
+
+
+
+
+header h1{
+  font-size: 4.2em;
+  line-height: 2.1;
+  color: rgb(230, 82, 28); 
+  
+}
+h2{
+  font-size: 2.2em;
+  line-height: 2.1;
+  color: rgb(230, 82, 28); 
+  
+}
+button {
+  border-radius: 8px;
+  border: 5px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #316ceb;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #1d22bd;
+}
+
+
+
+p.errinp{
+  color: #bc3131;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registrar {
+  display:inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  padding: 50px;
+  border-radius: 20px; 
+  background-color: #85c2cbc7;
+  color: #040404;
+  border: 3px solid #339fbc;
+  margin: 75px;
+}
+
+.registrar label {
+  position: relative;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+  font-size: 25px;
+}
+.ingresar {
+  display:inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  padding: 50px;
+  border-radius: 20px; 
+  background-color: #14f3fb84;
+  color: #040404;
+  border: 3px solid #339fbc;
+  margin: 75px;
+}
+
+.ingresar label {
+  position: relative;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p.lista{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+ 
+
+.submit {
+  border: cornflowerblue;
+  outline: none;
+  padding: 15px;
+  margin: 50px;
+  border-radius: 20px;
+  color: #100f0f;
+  font-size: 30px;
+  transform: .3s ease;
+  background-color: #00c3ffee;
+}
+
+.submit:hover {
+  background-color: #00bfff96;
+}
+
+
+form p{
+  color: #0922bf;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ .iconcar{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 30px
+  ;
+  justify-content: flex-end;
+
+ }
+ 
+.boAtras {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #1da9cd;
+    color: rgb(43, 43, 44);
+   }
+   .title{
+    font-size: px;
+   }

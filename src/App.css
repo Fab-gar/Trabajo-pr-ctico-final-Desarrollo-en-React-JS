@@ -1,0 +1,173 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+
+background-color: rgb(130, 187, 195);
+display: grid;
+padding: 2rem;
+grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+gap: 1rem;
+background-image: url('./assets/carrito.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 92vh;
+margin: 0;
+}
+
+nav{
+  font-size: 45px;
+  background-color:#a3d5e5 ;
+  border-radius: 3rem;
+  
+  
+}
+.buscador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+
+  }
+  
+  .buscador__input {
+    font-family: inherit;
+    font-size: 25px;
+    background-color: #88e7ef;
+    border: none;
+    color: #646464;
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .buscador__input:hover, .buscador__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .buscador__input:focus {
+    outline: none;
+    background-color: #07aaf0;
+  }
+  
+  .buscador__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #030a0f;
+  }
+  
+  .buscador__input:focus + .buscador__button {
+    background-color: #445459;
+  }
+  
+  .buscador__button {
+    border: none;
+    background-color: #33a7b9;
+    margin-top: .1em;
+  }
+  
+  .buscador__button:hover {
+    cursor: pointer;
+  }
+  
+  .buscador__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #27b1e8;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    position: relative;
+    width: 90%;
+    height: 465px;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 55px;
+  }
+  
+  
+  
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 23px;
+    
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 55px;
+    color: #373636;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.526em;
+    color: #000;
+  }
+  
+  .carrit:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .carrit:active {
+    transform: scale(0.98);
+  }
+  .carrit{
+    display: flex;
+    font-weight: 600;
+    color: #fff;
+  height: 65px;
+  width: 170px;
+  padding-left: 1.25em;
+  align-items: center;
+
+  }
+  
+  
+  .text {
+    position: sticky;
+    color: rgb(6, 6, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+  
+  
+  .image {
+    background: rgb(250, 248, 248);
+    width: 90%;
+    height: 250px;
+    display: flex;
+    place-items: center;
+  }
+
+
+.filtro{
+  padding: 2px;
+
+}
+p.filtro{
+  padding: px;
+  font-size: 23px;
+  margin-block-start: auto;
+}
+p.caric{
+  font-size: 30px;
+}
